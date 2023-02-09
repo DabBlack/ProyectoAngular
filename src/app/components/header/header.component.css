@@ -1,0 +1,48 @@
+.spacer {
+    flex: 1;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    /* background-image: linear-gradient(to right, #fc5c7d, #6a82fb); */
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-weight: 600;
+}
+
+.header img {
+    margin: 16px;
+}
+
+.iconos {
+    text-align: center;
+    margin: auto;
+}
+
+/* a {
+    width: 100%;
+    height: 100%;
+    background-color: #8e2de2;
+} */
+
+mat-icon {
+    color: white;
+    height: auto;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+mat-icon:hover {
+    color: orange;
+    opacity: 70%;
+}
+
