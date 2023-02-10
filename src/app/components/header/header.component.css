@@ -15,7 +15,11 @@
     padding-left: 20px;
     padding-right: 20px;
     color: white;
-    font-weight: 600;
+    font-family: 'Permanent Marker';
+}
+
+.header span {
+    font-size: 1.5em;
 }
 
 .header img {
@@ -42,7 +46,7 @@ mat-icon {
 }
 
 mat-icon:hover {
-    color: orange;
+    color: rgb(255, 235, 0);
     opacity: 70%;
 }
 
