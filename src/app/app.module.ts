@@ -11,7 +11,8 @@ import { FooterComponent } from './components/footer/footer.component';
 import { RegisterComponent } from './components/register/register.component';
 import { TarjetaJuegoComponent } from './components/tarjeta-juego/tarjeta-juego.component';
 import { BannerComponent } from './components/banner/banner.component';
-import { CartaImagenComponent } from './components/carta-imagen/carta-imagen.component'
+import { CartaImagenComponent } from './components/carta-imagen/carta-imagen.component';
+import { LoginComponent } from './components/login/login.component'
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { CartaImagenComponent } from './components/carta-imagen/carta-imagen.com
     RegisterComponent,
     TarjetaJuegoComponent,
     BannerComponent,
-    CartaImagenComponent
+    CartaImagenComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,

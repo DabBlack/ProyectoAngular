@@ -10,57 +10,56 @@
 <section class="bg-neutral-900">
     <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
       <aside class="relative block h-16 lg:order-last lg:col-span-5 lg:h-full xl:col-span-6" >
-        <img alt="Pattern" src="../.././../assets/img/lostArkRegistro.jpg"
+        <img alt="Pattern" src="../.././../assets/img/2.jpg"
           class="absolute inset-0 h-full w-full object-cover"
         />
       </aside>
   
       <main aria-label="Main" class="flex items-center justify-center px-8 py-8 sm:px-12 lg:col-span-7 lg:py-12 lg:px-16 xl:col-span-6" >
         <div class="max-w-xl lg:max-w-3xl">
-          <a class="block text-white" href="/">
+          <a class="block text-white" routerLink="/home">
             <img src="../../../assets/img/logo.jpg" alt="" class="w-24">
           </a>
   
-          <h1 class="mt-6 text-2xl font-bold text-orange-300 sm:text-3xl md:text-4xl">Bienvenido a DaBGames</h1>
+          <h1 class="mt-6 text-2xl font-bold text-orange-300 sm:text-3xl md:text-4xl">Bienvenido a DabGames</h1>
   
           <p class="mt-4 leading-relaxed text-gray-400">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam
-            dolorum aliquam, quibusdam aperiam voluptatum.
+            Bienvenido a la mejor plataforma de videojuegos del sector.
           </p>
   
           <form action="#" class="mt-8 grid grid-cols-6 gap-6">
             <div class="col-span-6 sm:col-span-3">
               <label for="nombre" class="block text-sm font-medium text-gray-400">Nombre</label>
   
-              <input type="text" id="nombre" name="nombre"
+              <input type="text" id="nombre" name="nombre" placeholder="Nombre"
                 class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm focus:bg-gray-200"/>
             </div>
   
             <div class="col-span-6 sm:col-span-3"> 
               <label for="apellidos" class="block text-sm font-medium text-gray-400">Apellidos</label>
   
-              <input type="text" id="apellidos" name="apellidos"
+              <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos"
                 class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm focus:bg-gray-200"/>
             </div>
   
             <div class="col-span-6">
               <label for="correo" class="block text-sm font-medium text-gray-400">Correo electrónico</label>
   
-              <input type="email" id="correo" name="correo" 
+              <input type="email" id="correo" name="correo" placeholder="correo@correo.com"
                 class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm focus:bg-gray-200"/>
             </div>
   
             <div class="col-span-6 sm:col-span-3">
               <label for="passwd" class="block text-sm font-medium text-gray-400">Contraseña</label>
   
-              <input type="password" id="passwd" name="passwd"
+              <input type="password" id="passwd" name="passwd" placeholder="••••••••"
                 class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm focus:bg-gray-200"/>
             </div>
   
             <div class="col-span-6 sm:col-span-3"> 
               <label for="passwdConfirmacion" class="block text-sm font-medium text-gray-400">Confirmación Contraseña</label>
   
-              <input type="password" id="passwdConfirmacion" name="passwdConfirmacion"
+              <input type="password" id="passwdConfirmacion" name="passwdConfirmacion" placeholder="••••••••"
                 class="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm focus:bg-gray-200"/>
             </div>
   
@@ -90,7 +89,7 @@
               </button>
   
               <p class="mt-4 text-sm text-gray-400 sm:mt-0">
-                ¿Tienes una cuenta? <a href="#" class="text-gray-700 underline text-gray-200" >Inicia sesión</a>.
+                ¿Tienes una cuenta? <a routerLink="/login" class="text-gray-700 underline text-gray-200" >Inicia sesión</a>.
               </p>
             </div>
           </form>

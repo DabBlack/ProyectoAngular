@@ -1,0 +1,47 @@
+<section class="bg-gray-900">
+    <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+        
+        <div class="w-full rounded-lg shadow border md:mt-0 sm:max-w-md xl:p-0 bg-gray-800 border-gray-700 banner">
+            <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+                <div class="">
+                    <a routerLink="/home" class="flex items-center mb-6 text-2xl font-semibold text-white">
+                        <img class="w-8 h-8 mr-2" src="../../../assets/img/logo.jpg" alt="logo">
+                        <span class="tituloLogo">DabGames</span>    
+                    </a>
+                </div>
+                
+                
+                <h1 class="text-xl font-bold leading-tight text-gray-900 md:text-2xl text-white">
+                    Inicia sesión en tu cuenta
+                </h1>
+                <form class="space-y-4 md:space-y-6" action="#">
+                    <div>
+                        <label for="correo" class="block mb-2 text-sm font-medium text-gray-900 text-white">Correo electrónico</label>
+                        <input type="correo" name="correo" id="correo" class="border bg-gray-700 border-gray-600 placeholder-gray-400 focus:border-orange-600 sm:text-sm rounded-lg focus:ring-orange-600 focus:border-orange-600 block w-full p-2.5" placeholder="correo@correo.com" required="">
+                    </div>
+                    <div>
+                        <label for="passwd" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Contraseña</label>
+                        <input type="passwd" name="passwd" id="passwd" placeholder="••••••••" class="border bg-gray-700 border-gray-600 placeholder-gray-400 focus:border-orange-600 sm:text-sm rounded-lg focus:ring-orange-600 focus:border-orange-600 block w-full p-2.5" required="">
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-start">
+                            <div class="flex items-center h-5">
+                              <input id="remember" aria-describedby="remember" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800" required="">
+                            </div>
+                            <div class="ml-3 text-sm">
+                              <label for="remember" class="text-gray-500 dark:text-gray-300">Recuérdame</label>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="m-auto w-full inline-block shrink-0 rounded-md border border-orange-400 bg-orange-400 px-12 py-3 text-sm font-medium text-black 
+                        transition hover:bg-transparent focus:outline-none focus:ring active:text-orange-600 hover:text-white">
+                        Iniciar Sesión
+                    </button>
+                    <p class="text-sm font-light text-gray-500 dark:text-gray-400">
+                        ¿No tienes una cuenta aún? <a routerLink="/register" class="font-medium text-primary-600 hover:underline dark:text-primary-500">Regístrate</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+  </section>
