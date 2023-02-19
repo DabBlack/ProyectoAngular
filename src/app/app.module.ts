@@ -12,7 +12,8 @@ import { RegisterComponent } from './components/register/register.component';
 import { TarjetaJuegoComponent } from './components/tarjeta-juego/tarjeta-juego.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { CartaImagenComponent } from './components/carta-imagen/carta-imagen.component';
-import { LoginComponent } from './components/login/login.component'
+import { LoginComponent } from './components/login/login.component';
+import { CarritoComponent } from './components/carrito/carrito.component'
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { LoginComponent } from './components/login/login.component'
     TarjetaJuegoComponent,
     BannerComponent,
     CartaImagenComponent,
-    LoginComponent
+    LoginComponent,
+    CarritoComponent
   ],
   imports: [
     BrowserModule,

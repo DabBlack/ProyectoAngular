@@ -1,0 +1,15 @@
+/* @layer utilities {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+} */
+
+body {
+    background-image: url(../../../assets/img/monstruoLostArk.jpg);
+}
+
+h1 {
+    font-family: 'Permanent Marker';
+}
