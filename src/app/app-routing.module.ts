@@ -1,3 +1,4 @@
+import { NuevoJuegoComponent } from './components/nuevo-juego/nuevo-juego.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { CarritoComponent } from './components/carrito/carrito.component';
@@ -10,8 +11,8 @@ const routes: Routes = [
   { path: 'register', component: RegisterComponent},
   { path: 'login', component: LoginComponent },
   { path: 'carrito', component: CarritoComponent },
+  { path: 'nuevoJuego', component: NuevoJuegoComponent },
   { path: '', component: HomeComponent },
-  // { path: 'logout', component: LogoutComponent },
   // { path: 'home', component: HomeComponent },
   // { path: 'profile', component: ProfileComponent },
 

@@ -16,6 +16,7 @@ import { BannerComponent } from './components/banner/banner.component';
 import { CartaImagenComponent } from './components/carta-imagen/carta-imagen.component';
 import { LoginComponent } from './components/login/login.component';
 import { CarritoComponent } from './components/carrito/carrito.component';
+import { NuevoJuegoComponent } from './components/nuevo-juego/nuevo-juego.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CarritoComponent } from './components/carrito/carrito.component';
     BannerComponent,
     CartaImagenComponent,
     LoginComponent,
-    CarritoComponent
+    CarritoComponent,
+    NuevoJuegoComponent
   ],
   imports: [
     BrowserModule,

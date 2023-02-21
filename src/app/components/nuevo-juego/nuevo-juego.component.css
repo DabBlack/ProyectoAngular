@@ -1,0 +1,15 @@
+section {
+    background-image: url(https://images8.alphacoders.com/110/thumb-1920-1102284.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tituloLogo {
+    font-family: 'Permanent Marker';
+}
+
+.banner {
+    background-image: url(../../../assets/img/newWorldRegistro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
