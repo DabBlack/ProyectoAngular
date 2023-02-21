@@ -1,7 +1,6 @@
 .divBanner {
-    background-image: url(../../../assets/img/blueProtocolBanner.jpg);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 600px;
 }
 
 #titulo {

@@ -1,9 +1,9 @@
-<div>
+<div *ngFor="let juego of listaJuegos">
     <div class="contenedorBanner">
-        <app-banner></app-banner>
+        <app-banner [juego]=juego></app-banner>
     </div>
 
     <div class="contenedorCartaImagen">
-        <app-carta-imagen></app-carta-imagen>
+        <app-carta-imagen [juego]=juego></app-carta-imagen>
     </div>
 </div>

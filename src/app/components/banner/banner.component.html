@@ -1,26 +1,25 @@
-<div class="text-start grid grid-cols-13 gap-12 divBanner">
+<div class="text-start grid grid-cols-13 gap-12 divBanner" style="background-image: url({{juego.imgBanner}});">
     <div class="pt-5 col-start-12 col-span-2"></div>
     <div class="col-start-10 col-span-2">
         <div class="grid grid-cols-12 gap-4">
             <div class="col-start-6 col-span-4">
-                <img src="../../../assets/img/blueProtocolLogo.svg">
+                <img src="{{juego.nombre}}">
             </div>
             <div class="col-start-6 col-span-3 text-4xl mt-4">
-                <p class="mt-5" class="">A partir de 2023</p>
+                <p class="mt-5">{{juego.titulo}}</p>
             </div>
             <div class="col-start-6 col-span-4 text-justify">
-                <p class="">Blue Protocol es un RPG de acción en línea gratuito en el que te conviertes en el héroe de tu propia aventura de fantasía.</p>
+                <p>{{juego.descripcion}}</p>
             </div>
             <div class="col-start-6 col-span-3">
                 <button class="text-black text-lg bg-orange-400 w-48 h-12 rounded hover:bg-transparent border border-orange-400 hover:text-white">Agregar al Carrito</button>
             </div>
             <div class="col-start-6 col-span-3 text-xs mt-2">
-                <p>Próximamente en PC (Steam), PlayStation 5 y Xbox X/S.</p>
+                <p>{{juego.plataforma}}</p>
             </div>
         </div>
     </div>
     <!-- Columnas vacías para centrar el contenido -->
-    <div class="col-start-12 col-span-2"></div>
     <div class="col-start-12 col-span-2"></div>
     <div class="col-start-12 col-span-2"></div>
 
