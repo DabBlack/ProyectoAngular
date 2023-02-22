@@ -4,10 +4,10 @@ export interface Juego {
     titulo: string;
     descripcion: string;
     img_banner: string;
-    imgCart1: string;
-    imgCart2: string;
-    imgCart3: string;
+    img_cart1: string;
+    img_cart2: string;
+    img_cart3: string;
     img_carrito: string;
-    precio: number;
+    precio: string;
     plataforma: string;
 }
