@@ -1,0 +1,73 @@
+<section class="bg-gray-900">
+    <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto lg:py-0">
+        <br><br><br>
+        <div class="my-5 w-full rounded-lg shadow border max-w-lg bg-gray-800 border-gray-700 banner">
+            <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+                <div>
+                    <a routerLink="/home" class="flex items-center mb-6 text-2xl font-semibold text-white">
+                        <img class="w-8 h-8 mr-2" src="../../../assets/img/logo.jpg" alt="logo">
+                        <span class="tituloLogo">DabGames</span>    
+                    </a>
+                </div>
+                
+                <hr>
+
+                <h1 class="text-xl font-bold leading-tight md:text-xl text-white text-center">
+                    Edita este juego.
+                </h1>
+                    <div>
+                        <label for="nombre" class="block mb-2 text-sm font-medium text-white">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" class="border bg-gray-700 border-gray-600 placeholder-gray-400 focus:border-orange-600 sm:text-sm rounded-lg focus:ring-orange-600 focus:border-orange-600 block w-full p-2.5" placeholder="Url de la imagen" required>
+                    </div>
+                    <div>
+                        <label for="titulo" class="block mb-2 text-sm font-medium text-white">Título</label>
+                        <input type="text" name="titulo" id="titulo" placeholder="Título" class="border bg-gray-700 border-gray-600 placeholder-gray-400 focus:border-orange-600 sm:text-sm rounded-lg focus:ring-orange-600 focus:border-orange-600 block w-full p-2.5" required>
+                    </div>
+                    <div>
+                        <label for="descripcion" class="block mb-2 text-sm font-medium text-white">Descripción</label>
+                        <input type="text" name="descripcion" id="descripcion" placeholder="Descripción" class="border bg-gray-700 border-gray-600 placeholder-gray-400 focus:border-orange-600 sm:text-sm rounded-lg focus:ring-orange-600 focus:border-orange-600 block w-full p-2.5" required>
+                    </div>
+                    <div>
+                        <label for="imgBanner" class="block mb-2 text-sm font-medium text-white">Imagen Banner</label>
+                        <input type="text" name="imgBanner" id="imgBanner" placeholder="Url de la imagen" class="border bg-gray-700 border-gray-600 placeholder-gray-400 focus:border-orange-600 sm:text-sm rounded-lg focus:ring-orange-600 focus:border-orange-600 block w-full p-2.5" required>
+                    </div>
+                    <div>
+                        <label for="img_cart1" class="block mb-2 text-sm font-medium text-white">Imagen Carta 1</label>
+                        <input type="text" name="img_cart1" id="img_cart1" placeholder="Url de la imagen" class="border bg-gray-700 border-gray-600 placeholder-gray-400 focus:border-orange-600 sm:text-sm rounded-lg focus:ring-orange-600 focus:border-orange-600 block w-full p-2.5" required>
+                    </div>
+                    <div>
+                        <label for="img_cart2" class="block mb-2 text-sm font-medium text-white">Imagen Carta 2</label>
+                        <input type="text" name="img_cart2" id="img_cart2" placeholder="Url de la imagen" class="border bg-gray-700 border-gray-600 placeholder-gray-400 focus:border-orange-600 sm:text-sm rounded-lg focus:ring-orange-600 focus:border-orange-600 block w-full p-2.5" required>
+                    </div>
+                    <div>
+                        <label for="img_cart3" class="block mb-2 text-sm font-medium text-white">Imagen Carta 3</label>
+                        <input type="text" name="img_cart3" id="img_cart3" placeholder="Url de la imagen" class="border bg-gray-700 border-gray-600 placeholder-gray-400 focus:border-orange-600 sm:text-sm rounded-lg focus:ring-orange-600 focus:border-orange-600 block w-full p-2.5" required>
+                    </div>
+                    <div>
+                        <label for="img_carrito" class="block mb-2 text-sm font-medium text-white">Imagen Carrito</label>
+                        <input type="text" name="img_carrito" id="img_carrito" placeholder="Url de la imagen" class="border bg-gray-700 border-gray-600 placeholder-gray-400 focus:border-orange-600 sm:text-sm rounded-lg focus:ring-orange-600 focus:border-orange-600 block w-full p-2.5" required>
+                    </div>
+                    <div>
+                        <label for="precio" class="block mb-2 text-sm font-medium text-white">Precio</label>
+                        <input min="0" step="0.01" value="0.00" type="number" name="precio" id="precio" placeholder="0.00" class="border bg-gray-700 border-gray-600 placeholder-gray-400 focus:border-orange-600 sm:text-sm rounded-lg focus:ring-orange-600 focus:border-orange-600 block w-full p-2.5" required>
+                    </div>
+                    <div>
+                        <label for="plataforma" class="block mb-2 text-sm font-medium text-white">Plataforma</label>
+                        <input type="text" name="plataforma" id="plataforma" placeholder="Plataforma o Plataformas" class="border bg-gray-700 border-gray-600 placeholder-gray-400 focus:border-orange-600 sm:text-sm rounded-lg focus:ring-orange-600 focus:border-orange-600 block w-full p-2.5" required>
+                    </div>
+                    
+                   
+                    <button class="m-auto w-full inline-block shrink-0 rounded-md border border-orange-400 bg-orange-400 px-12 py-3 text-sm font-medium text-black 
+                        transition hover:bg-transparent focus:ring-2 focus:outline-none focus:ring-orange-400 hover:text-white">
+                        Añadir Juego
+                    </button>
+                    <br><hr><br>
+                    <a routerLink="/home"><button class="m-auto w-full inline-block shrink-0 rounded-md border border-orange-400 bg-orange-400 px-12 py-3 text-sm font-medium text-black 
+                        transition hover:bg-transparent focus:ring-2 focus:outline-none focus:ring-orange-400 hover:text-white">
+                        Cancelar
+                    </button></a>
+            </div>
+        </div>
+        <br><br><br>
+    </div>
+  </section>

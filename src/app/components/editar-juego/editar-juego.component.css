@@ -1,0 +1,18 @@
+section {
+    background-image: url(https://images8.alphacoders.com/118/1186452.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+
+}
+
+.tituloLogo {
+    font-family: 'Permanent Marker';
+}
+
+.banner {
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/861/184/desktop-wallpaper-greedfall-cover-art-im-using-for-my-phone-atm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}

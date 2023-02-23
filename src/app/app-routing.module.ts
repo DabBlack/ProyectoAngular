@@ -1,3 +1,4 @@
+import { EditarJuegoComponent } from './components/editar-juego/editar-juego.component';
 import { NuevoJuegoComponent } from './components/nuevo-juego/nuevo-juego.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -12,8 +13,8 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'carrito', component: CarritoComponent },
   { path: 'nuevoJuego', component: NuevoJuegoComponent },
+  { path: 'editarJuego', component: EditarJuegoComponent },
   { path: '', component: HomeComponent },
-  // { path: 'home', component: HomeComponent },
   // { path: 'profile', component: ProfileComponent },
 
 ];
