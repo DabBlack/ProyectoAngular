@@ -19,7 +19,7 @@ export class NuevoJuegoComponent {
     console.log(this.juego)
     this.serviceJuego.anadirNuevoJuego(this.juego).subscribe((data) => {
       console.log("Creado correctamente.")
-      
+      location.href = "/home";
     });
   }
 

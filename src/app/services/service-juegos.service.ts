@@ -33,9 +33,8 @@ export class ServiceJuegosService {
   }
  
   // Petición tipo delete al que le pasamos solo el id del módulo a borrar devolviendo el observable
-  borrarJuego(id: number): Observable<Juego> {
-    const url = `${this.apiUrl}/${id}`;
-    return this.http.delete<Juego>(url);
+  borrarJuegoService(id: number){
+    return this.http.delete<Juego>(this.apiUrl+"/borrarJuego/"+id);
   }
  
    //Petición de tipo udapte al que se le pasa el módulo a actualizar y que devuelve un observable
