@@ -1,5 +1,4 @@
 import { ServiceJuegosService } from 'src/app/services/service-juegos.service';
-import { HomeComponent } from './../home/home.component';
 import { Component, OnInit, Input} from '@angular/core';
 import { Juego } from 'src/app/interfaces/Juego';
 
@@ -15,8 +14,6 @@ export class TarjetaJuegoComponent{
   constructor(private serviceJuego:ServiceJuegosService) { }
 
   ngOnInit(): void {
-    this.serviceJuego.listarJuegos().subscribe(juego => {(this.listaJuegos = juego); console.log("Lista de juegos Tarjeta: " + this.listaJuegos)});
-
-    //console.log("Juego: " + this.juego.nombre);
+    this.serviceJuego.listarJuegos().subscribe(juego => {(this.listaJuegos = juego); console.log("Lista de juegos: " + this.listaJuegos)});
   }
 }

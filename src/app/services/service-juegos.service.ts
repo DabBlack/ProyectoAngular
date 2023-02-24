@@ -39,8 +39,11 @@ export class ServiceJuegosService {
  
    //Petición de tipo udapte al que se le pasa el módulo a actualizar y que devuelve un observable
   updateJuego(juego: Juego): Observable<Juego> {
-    const url = `${this.apiUrl}/${juego.id}`;
-    return this.http.put<Juego>(url, juego, httpOptions);
+    return this.http.put<Juego>(this.apiUrl+"/editarJuego/"+ juego.id, juego);
   }
- 
+
+  // Petición tipo delete al que le pasamos solo el id del módulo a borrar devolviendo el observable
+  getJuego(id: number): Observable<Juego> {
+    return this.http.get<Juego>(this.apiUrl+"/obtenerJuego/"+ id);
+  }
 }

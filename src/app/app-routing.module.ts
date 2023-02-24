@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'carrito', component: CarritoComponent },
   { path: 'nuevoJuego', component: NuevoJuegoComponent },
-  { path: 'editarJuego', component: EditarJuegoComponent },
+  { path: 'editarJuego/:id', component: EditarJuegoComponent },
   { path: '', component: HomeComponent },
   // { path: 'profile', component: ProfileComponent },
 
